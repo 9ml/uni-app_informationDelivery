@@ -1,0 +1,1 @@
+<view><block wx:for="{{systemInfo}}" wx:for-item="s" wx:for-index="s_idx" wx:key="s_idx"><view class="msgItem"><view class="msg-item"><view class="mi-space_a"></view><view class="mi-top">{{''+s.title+''}}</view><view class="mi-space_b"></view><view class="mi-bom">{{''+s.innser+''}}</view></view></view></block></view>

@@ -1,0 +1,1 @@
+<view><view class="ccMain"><view class="cm-ewm"><image src="{{getInfo.qrcodeurl}}" mode></image></view><view class="cm-name">微信客服</view><view class="cm-phone"><view class="cp-icon"><image src="/static/icon/tel.png" mode></image></view><view class="cp-phone">{{''+getInfo.kfcall+''}}</view></view><view class="cm-name">{{''+getInfo.address+''}}</view></view></view>

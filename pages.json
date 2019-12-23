@@ -1,0 +1,224 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/start",
+			"style": {
+				"navigationBarTitleText": "启动页",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+			"path": "pages/release/releaseInfo",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		}
+		,{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user/registe",
+		    "style" : {
+				"navigationBarTitleText": "注册",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/personal/updateWeChat",
+		    "style" : {
+				"navigationBarTitleText": "修改微信",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/personal/updateName",
+		    "style" : {
+				"navigationBarTitleText": "修改名称",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/personal/updateQQ",
+		    "style" : {
+				"navigationBarTitleText": "修改QQ",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/personal/contactCustomer",
+		    "style" : {
+				"navigationBarTitleText": "联系客服"
+			}
+		}
+		,{
+		    "path" : "pages/personal/personalDate",
+		    "style" : {
+				"navigationBarTitleText": "个人资料"
+			}
+		}
+		,{
+		    "path" : "pages/personal/softwareInformation",
+		    "style" : {
+				"navigationBarTitleText": "软件信息"
+			}
+		}
+		,{
+		    "path" : "pages/personal/privacyPolicy",
+		    "style" : {
+				"navigationBarTitleText": "隐私政策"
+			}
+		}
+		,{
+		    "path" : "pages/personal/serviceAgreement",
+		    "style" : {
+				"navigationBarTitleText": "服务协议"
+			}
+		}
+		,{
+		    "path" : "pages/personal/aboutUs",
+		    "style" : {
+				"navigationBarTitleText": "关于"
+			}
+		}
+		,{
+		    "path" : "pages/personal/systemMsg",
+		    "style" : {
+				"navigationBarTitleText": "系统消息"
+			}
+		}
+		,{
+		    "path" : "pages/personal/myComments",
+		    "style" : {
+				"navigationBarTitleText": "我的评论",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/personal/myRelease",
+		    "style" : {
+				"navigationBarTitleText": "我的发布",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/personal/personal",
+		    "style" : {
+				"navigationBarTitleText": "个人中心",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/release/release",
+		    "style" : {
+				"navigationBarTitleText": "发布展",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/postDetails",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		}
+		,{
+		    "path" : "pages/user/login",
+		    "style" : {
+				"navigationBarTitleText": "登录",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user/forgot",
+		    "style" : {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/classification/classification",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "雅云",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#828282",
+		"selectedColor": "#347fd2",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"iconPath": "static/icon/fasong.png",
+				"selectedIconPath": "static/icon/fasong_active.png",
+				"text": "发布展"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"iconPath": "static/icon/leimu.png",
+				"selectedIconPath": "static/icon/leimu_active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/icon/gerenzhongxin.png",
+				"selectedIconPath": "static/icon/gerenzhongxin_active.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

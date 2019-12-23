@@ -1,0 +1,1 @@
+<view><view class="siMain"><view class="logo"><image src="{{getInfo.logo}}" mode></image></view><view class="name">{{''+getInfo.name+''}}</view><view class="name">{{'系统版本: '+getInfo.version+''}}</view><view class="name link">{{'官方链接: '+getInfo.link+''}}</view></view></view>

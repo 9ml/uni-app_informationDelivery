@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\nbody { background-color: #F6F6F6; }\n.",[1],"samain { width: 92%; margin: 0 auto; font-size: ",[0,28],"; color: #8A8A8A; }\n",],undefined,{path:"./pages/personal/privacyPolicy.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/personal/privacyPolicy.wxml') } }));

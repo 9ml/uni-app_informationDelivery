@@ -1,0 +1,35 @@
+.goodsShow{
+	border-bottom: 1rpx solid #F6F6F6;
+	.gs-main{
+		width: 94%;
+		height: 300rpx;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		.gm-img{
+			width: 42%;
+			height: 260rpx;
+			image{
+				width: 260rpx;
+				height: 260rpx;
+				border-radius: 10rpx;
+			}
+		}
+		.gm-fonts{
+			width: 58%;
+			height: 260rpx;
+			.gf-title{
+				height: 90rpx;
+				line-height: 90rpx;
+				font-size: 28rpx;
+				font-weight: bold;
+			}
+			.gf-desc{
+				height: 140rpx;
+				font-size: 26rpx;
+				color: #777777;
+				overflow: hidden;
+			}
+		}
+	}
+}

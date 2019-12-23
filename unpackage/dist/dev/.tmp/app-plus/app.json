@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/index/start",
+    "pages/index/index",
+    "pages/release/releaseInfo",
+    "pages/index/search",
+    "pages/user/registe",
+    "pages/personal/updateWeChat",
+    "pages/personal/updateName",
+    "pages/personal/updateQQ",
+    "pages/personal/contactCustomer",
+    "pages/personal/personalDate",
+    "pages/personal/softwareInformation",
+    "pages/personal/privacyPolicy",
+    "pages/personal/serviceAgreement",
+    "pages/personal/aboutUs",
+    "pages/personal/systemMsg",
+    "pages/personal/myComments",
+    "pages/personal/myRelease",
+    "pages/personal/personal",
+    "pages/release/release",
+    "pages/index/postDetails",
+    "pages/user/login",
+    "pages/user/forgot",
+    "pages/classification/classification"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "雅云",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#828282",
+    "selectedColor": "#347fd2",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/release/release",
+        "iconPath": "static/icon/fasong.png",
+        "selectedIconPath": "static/icon/fasong_active.png",
+        "text": "发布展"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "static/icon/leimu.png",
+        "selectedIconPath": "static/icon/leimu_active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/icon/gerenzhongxin.png",
+        "selectedIconPath": "static/icon/gerenzhongxin_active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "雅云",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

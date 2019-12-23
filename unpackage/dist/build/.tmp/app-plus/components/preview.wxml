@@ -1,0 +1,1 @@
+<view><view class="pbMs"><swiper class="swiper" current="{{tapIndex}}" indicator-dots="true"><block wx:for="{{imgList}}" wx:for-item="i" wx:for-index="i_idx" wx:key="i_idx"><swiper-item><view class="sImgs"><image src="{{i}}" mode></image></view></swiper-item></block></swiper></view></view>

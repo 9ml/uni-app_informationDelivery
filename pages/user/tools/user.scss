@@ -1,0 +1,69 @@
+page{
+	background-color: #FFFFFF;
+}
+.topSpace{
+	height: 200rpx;
+}
+.topName{
+	font-size: 44rpx;
+	font-weight: bold;
+	text-align: center;
+}
+.inpSpace{
+	height: 100rpx;
+}
+.inpItem{
+	width: 630rpx;
+	height: 70rpx;
+	position: relative;
+	border-bottom: 2rpx solid #AEAEAE;
+	margin: 20rpx auto 0;
+	input{
+		width: 100%;
+		height: 100%;
+		padding-left: 10rpx;
+		font-size: 26rpx;
+	}
+	.getCode{
+		width: 30%;
+		height: 30rpx;
+		line-height: 30rpx;
+		text-align: right;
+		position: absolute;
+		top: 50%;
+		margin-top: -15rpx;
+		right: 10rpx;
+		font-size: 24rpx;
+		color: #387CDC;
+		z-index: 999;
+	}
+	.seconds{
+		color: #666666;
+	}
+}
+.inpBtn{
+	width: 620rpx;
+	height: 80rpx;
+	margin: 100rpx auto 0;
+	button{
+		text-align: center;
+		line-height: 80rpx;
+		color: #FFFFFF;
+		background-color: #387CDC;
+		font-size: 30rpx;
+	}
+}
+.otherChose{
+	width: 600rpx;
+	height: 70rpx;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 24rpx;
+	.oc-item{
+		text{
+			color: #387CDC;
+		}
+	}
+}
